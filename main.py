@@ -20,7 +20,7 @@ async def index():
 
 
 @app.get("/raw/{category}")
-async def get_raw_random(category: str, ver: str):
+async def get_raw_random(category: str, ver: str = None):
     folders = await get_folder_dict(config.root_folder)
     folder: ImageFolder = folders.get(category, None)
     if not folder:
