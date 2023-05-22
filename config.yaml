@@ -1,0 +1,5 @@
+root_folder: G:\memes_root
+folder_html: "<h3><a href=\"{raw_url}\">{display_name}</a> - {description}</h3><br>"
+
+host: "127.0.0.1"  # set 0.0.0.0 to run on all
+port: 7878
